@@ -1,0 +1,49 @@
+body {
+  background: #9f9ae2;
+  font-size: 20px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  align-items: center;
+  text-align: center;
+}
+.input-text {
+  text-align: start;
+  padding: 3px;
+  text-align: center;
+  margin-top: 20px;
+}
+.list {
+  background-color: white;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item-panel {
+  height: fit-content;
+  text-align: center;
+}
+.column1 {
+  text-align: left;
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+}
+.row {
+  margin-top: 10px;
+}
+.column2 {
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+}
+.input-text {
+  max-width: 500px;
+}
