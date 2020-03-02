@@ -47,3 +47,6 @@ body {
 .input-text {
   max-width: 500px;
 }
+input[type="checkbox"]:checked + span.strikethrough {
+  text-decoration: line-through;
+}

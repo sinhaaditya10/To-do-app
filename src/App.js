@@ -86,7 +86,12 @@ class App extends Component {
                           checked={item.isDone}
                           onChange={() => this.itemChecked(item.id)}
                         />
-                        <span style={{ marginLeft: "10px" }}>{item.value}</span>
+                        <span
+                          className="strikethrough"
+                          style={{ marginLeft: "10px" }}
+                        >
+                          {item.value}
+                        </span>
                       </div>
                       <div className="column2">
                         <button
